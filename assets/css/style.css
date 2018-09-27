@@ -1,83 +1,74 @@
-body {
-    font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: lightgrey; 
+.navbar {
+    background-color: #022256;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 6px;
+    font-family: 'Chicle', cursive;
 }
 
-.nav-container {
-    background-color: white;
-    padding: 20px;
-    margin-top: 10px;
-    text-align: left;
-}
-
-a {
-    color: teal;
-    margin:3%;
-    text-align: center;
-    text-decoration: none;
-    border-left: 0.10px solid gray;
-}
-
-h1{
-    background-color: teal;
-    color: white;
-    width: 25%;
+/*font-family: 'Oxygen', sans-serif;*/
+h1 {
+    color:#F08080;
+    text-align: start;
+    font-size: 40px;
     padding: 10px;
-    float: right;
+    background-color: #02307a;
+    border-radius: 9px;
 }
 
-img {
-    width: 250px;
-    height: 250px;
-}
-
-.picture {
+#links {
     float: left;
+}
+
+ul li {
+    display: inline;
+    font-size: 25px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+ul li:hover {
+    color: #ff029a;
 }
 
 h2 {
-    color: teal;
-    float: left;
+    color:#F08080;
+    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Chicle', cursive;*/
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    background-color: #022256;
+    border-radius: 9px;
 }
 
 p {
-    clear: both;
-    text-align: justify;
-}
-
-#container {
-    clear: both;
-    background-color: white;
-}
-
-.row1 {
-    width: 100px;
-    height: 200px;
-    margin: 10%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
     padding: 10px;
     float: left;
 }
 
-.row2 {
-    width: 100px;
-    height: 200px;
-    margin: 50px;
-    padding: 20px;
-    float: left;
+img {
+    padding: 12px;
+    width: 350px;
+    height: 350px;
+    border-radius: 7px;
 }
 
-.row3 {
-    width: 100px;
-    height: 200px;
-    margin: 50px;
-    padding: 20px;
-    float: left;
+form {
+    font-family: 'Raleway', sans-serif;
 }
+
 
 footer {
     clear: both;
-    background-color: gray;
+    font-size: 30px;
+    font-family: 'Chicle', cursive;
+    background-color:rgba(10, 39, 58, 0.671);
+    color: rgb(119, 201, 201);
     position: sticky;
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    text-align: center
 }
-
