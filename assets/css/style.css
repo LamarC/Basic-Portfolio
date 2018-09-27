@@ -13,6 +13,7 @@ h1 {
     padding: 10px;
     background-color: #02307a;
     border-radius: 9px;
+    margin-left: 15px;
 }
 
 #links {
@@ -52,11 +53,15 @@ img {
     padding: 12px;
     width: 350px;
     height: 350px;
-    border-radius: 7px;
 }
 
 form {
     font-family: 'Raleway', sans-serif;
+}
+
+#gray-b {
+    width: 200px;
+    height: 200px;
 }
 
 
@@ -70,5 +75,6 @@ footer {
     width: 100%;
     height: 80px;
     padding: 20px;
-    text-align: center
+    text-align: center;
+    border-radius: 6px;
 }
