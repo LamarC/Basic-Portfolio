@@ -1,4 +1,5 @@
-$('.carousel').carousel({
-    interval: 2000
-  })
+ //Modal Initialization
+ $(document).ready(function () {
+  $('.modal').modal();
+});
     
