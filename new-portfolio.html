@@ -18,9 +18,8 @@
 <body>
 
     <header>
-
         <!-- Navbar -->
-        <nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg scrolling-navbar double-nav">
+        <nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg scrolling-navbar">
 
             <!-- Breadcrumb-->
             <div class="breadcrumb-dn mr-auto">
@@ -31,49 +30,46 @@
                     <a href="#info" class="nav-link modal-trigger"><i class="fa fa-id-card-o"></i> <span class="clearfix d-none d-sm-inline-block">About</span></a>
                 </li>
                 <li class="nav-item">
-                    <a href="contact.html" class="nav-link"><i class="fa fa-envelope-o"></i> <span class="clearfix d-none d-sm-inline-block">ContactMe</span></a>
+                    <a href="contact.html" class="nav-link"><i class="fa fa-envelope-o"></i> <span class="clearfix d-none d-sm-inline-block">Contact Me</span></a>
                 </li>
             </ul>
         </nav>
-        <!-- /.Navbar -->
     </header>
-
-    <!--Main layout-->
+    
     <main>
-        <!-- Carousel -->
-        <div class="container-fluid text-center">
-            <div class="carousel">
-                <a class="carousel-item" href=""><img src="./assets/images/rps.jpg">RPS</a>
-                <a class="carousel-item" href="#two!"><img src="./assets/images/hangman-game.png">Word Guessing Game</a>
-                <a class="carousel-item" href="https://lamarc.github.io/unit-4-game/"><img src="./assets/images/crystals.jpg">Crystals Game</a>
-                <a class="carousel-item" href="https://lamarc.github.io/TriviaGame/"><img src="./assets/images/trivia.jpg">Trivia Game</a>
-                <a class="carousel-item" href="https://lamarc.github.io/GifTastic/"><img src="./assets/images/giphy.jpg">GifTastic</a>
-                <a class="carousel-item" href="https://lamarc.github.io/Train-Schedule/"><img src="./assets/images/train.jpg">Train Schedule</a>
-               
-            </div>
-
-
-            <!-- Modal Structure -->
-         <div class="modal" id="info">
-                <div class="modal-content">
-                        <h2>About Me</h2>
-                        <img src="assets/images/Diana-n-Bruce.jpg" />
-                        <p><i class="fa fa-graduation-cap"><h4>UT Houston Boot Camp Student</h4></i></p>
-                        <p>
-                            <h5>Languages: </h5>
-                            <i class="fab fa-html5"></i>
-                            <i class="fab fa-css3-alt"></i>
-                            <i class="fab fa-js-square"></i>
-                            <i class="fab fa-node-js"></i>
-                        </p>
-                        
-                </div>
-            </div>
-
-
+    <!-- Carousel -->
+    <div class="container">
+        <div class="carousel">
+            <a class="carousel-item" href="#one!"><img src="./assets/images/rps.jpg">RPS</a>
+            <a class="carousel-item" href="#two!"><img src="./assets/images/hangman-game.png">Word Guessing Game</a>
+            <a class="carousel-item" href="https://lamarc.github.io/unit-4-game/"><img src="./assets/images/crystals.jpg">Crystals
+                Game</a>
+            <a class="carousel-item" href="https://lamarc.github.io/TriviaGame/"><img src="./assets/images/trivia.jpg">Trivia</a>
+            <a class="carousel-item" href="https://lamarc.github.io/GifTastic/"><img src="./assets/images/giphy.jpg">GifTastic</a>
+            <a class="carousel-item" href="https://lamarc.github.io/Train-Schedule/"><img src="./assets/images/train.jpg">Train
+                Schedule</a>
         </div>
     </main>
-    <!--/Main layout-->
+
+        <!-- Modal Structure -->
+        <div class="modal" id="info">
+            <div class="modal-content">
+                <h2>About Me</h2>
+                <img src="assets/images/Diana-n-Bruce.jpg" />
+                <p><i class="fa fa-graduation-cap">
+                        <h4>UT Houston Boot Camp Student</h4>
+                    </i></p>
+                <p>
+                    <h5>Languages: </h5>
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-node-js"></i>
+                </p>
+            </div>
+        </div>
+    </div>
+
 
     <!--Footer-->
     <footer class="page-footer text-center text-md-left pt-4">
@@ -81,11 +77,9 @@
         <!--Social buttons-->
         <div class="social-section text-center">
             <ul class="list-unstyled list-inline">
-                <li class="list-inline-item"><a href="https://www.linkedin.com/in/diana-viana-883173168/" class="btn-floating btn-li"><i
+                <li class="list-inline-item"><a href="https://www.linkedin.com/in/diana-viana-883173168/" class="btn-floating btn-li" id="social"><i
                             class="fa fa-linkedin"> </i></a></li>
-                <li class="list-inline-item"><a href="https://github.com/LamarC" class="btn-floating btn-git"><i class="fa fa-github">
-                        </i></a></li>
-                <li class="list-inline-item"><a href="" class="btn-floating btn-git"><i class="fa fa-github">
+                <li class="list-inline-item"><a href="https://github.com/LamarC" class="btn-floating btn-git" id="social"><i class="fa fa-github">
                         </i></a></li>
             </ul>
         </div>
@@ -102,10 +96,12 @@
     </footer>
     <!--/.Footer-->
 
-<!-- JQuery -->
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-<script src="/assets/JS/logic.js"></script>
+    <!-- JQuery -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="./assets/JS/logic.js"></script>
+});
 
 </body>
 
