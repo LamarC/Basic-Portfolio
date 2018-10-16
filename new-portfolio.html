@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Diana Viana's Portfolio</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
@@ -30,26 +31,60 @@
                     <a href="#info" class="nav-link modal-trigger"><i class="fa fa-id-card-o"></i> <span class="clearfix d-none d-sm-inline-block">About</span></a>
                 </li>
                 <li class="nav-item">
-                    <a href="contact.html" class="nav-link"><i class="fa fa-envelope-o"></i> <span class="clearfix d-none d-sm-inline-block">Contact Me</span></a>
+                    <a href="contact.html" class="nav-link"><i class="fa fa-envelope-o"></i> <span class="clearfix d-none d-sm-inline-block">Contact
+                            Me</span></a>
                 </li>
             </ul>
         </nav>
     </header>
-    
+
     <main>
-    <!-- Carousel -->
-    <div class="container">
-        <div class="carousel">
-            <a class="carousel-item" href="#one!"><img src="./assets/images/rps.jpg">RPS</a>
-            <a class="carousel-item" href="#two!"><img src="./assets/images/hangman-game.png">Word Guessing Game</a>
-            <a class="carousel-item" href="https://lamarc.github.io/unit-4-game/"><img src="./assets/images/crystals.jpg">Crystals
-                Game</a>
-            <a class="carousel-item" href="https://lamarc.github.io/TriviaGame/"><img src="./assets/images/trivia.jpg">Trivia</a>
-            <a class="carousel-item" href="https://lamarc.github.io/GifTastic/"><img src="./assets/images/giphy.jpg">GifTastic</a>
-            <a class="carousel-item" href="https://lamarc.github.io/Train-Schedule/"><img src="./assets/images/train.jpg">Train
-                Schedule</a>
+        <!--<div class="carousel">
+                <a class="carousel-item" href="#one!"><img src="./assets/images/rps.jpg">RPS</a>
+                <a class="carousel-item" href="#two!"><img src="./assets/images/hangman-game.png">Word Guessing Game</a>
+                <a class="carousel-item" href="https://lamarc.github.io/unit-4-game/"><img src="./assets/images/crystals.jpg">Crystals
+                    Game</a>
+                <a class="carousel-item" href="https://lamarc.github.io/TriviaGame/"><img src="./assets/images/trivia.jpg">Trivia</a>
+                <a class="carousel-item" href="https://lamarc.github.io/GifTastic/"><img src="./assets/images/giphy.jpg">GifTastic</a>
+                <a class="carousel-item" href="https://lamarc.github.io/Train-Schedule/"><img src="./assets/images/train.jpg">Train
+                    Schedule</a>
+            </div> -->
+
+        <div class="container">
+            <ul class="collection">
+                <li class="collection-item avatar">
+                    <img src="./assets/images/rps.jpg" alt="Rock, paper, scissors game" class="circle" />
+                    <span class="title">RPS</span>
+                    <a href="#!" class="secondary-content"><i class="material-icons">RPS</i></a>
+                </li>
+
+                <li class="collection-item avatar">
+                    <img src="./assets/images/hangman-game.png" alt="Word Guessing Game" class="circle" />
+                    <span class="title">Word Guessing Game</span>
+                    <a href="#!" class="secondary-content"><i class="material-icons">Word Guessing Game</i></a>
+                </li>
+
+                <li class="collection-item avatar">
+                    <img src="./assets/images/crystals.jpg" alt="Crystals Game" class="circle" />
+                    <span class="title">Crystals Game</span>
+                    <a href="https://lamarc.github.io/unit-4-game/" class="secondary-content"><i class="material-icons">Crystals
+                            Game</i></a>
+                </li>
+
+                <li class="collection-item avatar">
+                    <img src="./assets/images/giphy.jpg" alt="Gifts" class="circle" />
+                    <span class="title">GifTastic</span>
+                    <a href="https://lamarc.github.io/GifTastic/" class="secondary-content"><i class="material-icons">GifTastic</i></a>
+                </li>
+
+                <li class="collection-item avatar">
+                    <img src="./assets/images/train.jpg" alt="Rock, paper, scissors game" class="circle" />
+                    <span class="title">Train Schedule</span>
+                    <a href="https://lamarc.github.io/Train-Schedule/" class="secondary-content"><i class="material-icons">Train
+                            Schedule</i></a>
+                </li>
+            </ul>
         </div>
-    </main>
 
         <!-- Modal Structure -->
         <div class="modal" id="info">
@@ -57,7 +92,7 @@
                 <h2>About Me</h2>
                 <img src="assets/images/Diana-n-Bruce.jpg" />
                 <p><i class="fa fa-graduation-cap">
-                        <h4>UT Houston Boot Camp Student</h4>
+                        <h4>UT Austin Boot Camp Student</h4>
                     </i></p>
                 <p>
                     <h5>Languages: </h5>
@@ -68,43 +103,40 @@
                 </p>
             </div>
         </div>
-    </div>
 
 
-    <!--Footer-->
-    <footer class="page-footer text-center text-md-left pt-4">
-
-        <!--Social buttons-->
-        <div class="social-section text-center">
-            <ul class="list-unstyled list-inline">
-                <li class="list-inline-item"><a href="https://www.linkedin.com/in/diana-viana-883173168/" class="btn-floating btn-li" id="social"><i
-                            class="fa fa-linkedin"> </i></a></li>
-                <li class="list-inline-item"><a href="https://github.com/LamarC" class="btn-floating btn-git" id="social"><i class="fa fa-github">
-                        </i></a></li>
-            </ul>
-        </div>
-        <!--/.Social buttons-->
-        <br><br>
-        <!--Copyright-->
-        <div class="footer-copyright py-3 text-center">
-            <div class="container-fluid">
-                © Diana Viana Copyright 2018
-            </div>
-        </div>
-        <!--/.Copyright-->
-
-    </footer>
-    <!--/.Footer-->
+    </main>
 
     <!-- JQuery -->
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script> -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        <script src="./assets/JS/logic.js"></script>
-});
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./assets/JS/logic.js"></script>
 
 </body>
 
-</body>
+<!--Footer-->
+<footer class="page-footer text-center text-md-left pt-4">
+
+    <!--Social buttons-->
+    <div class="social-section text-center">
+        <ul class="list-unstyled list-inline">
+            <li class="list-inline-item"><a href="https://www.linkedin.com/in/diana-viana-883173168/" class="btn-floating btn-li"
+                    id="social"><i class="fa fa-linkedin"> </i></a></li>
+            <li class="list-inline-item"><a href="https://github.com/LamarC" class="btn-floating btn-git" id="social"><i
+                        class="fa fa-github">
+                    </i></a></li>
+        </ul>
+    </div>
+
+    <br><br>
+    <!--Copyright-->
+    <div class="footer-copyright py-3 text-center">
+        <div class="container-fluid">
+            © Diana Viana Copyright 2018
+        </div>
+    </div>
+
+</footer>
 
 </html>
