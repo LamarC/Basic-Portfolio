@@ -28,6 +28,16 @@ nav {
     margin-top: 75px;
 }
 
+.modal {
+
+}
+
+#my-photo {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+}
+
 footer {
     background-image: linear-gradient(to left, #012860, #093b80, #104fa3, #1464c6, #127aeb);
 }
