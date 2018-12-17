@@ -1,0 +1,19 @@
+{
+  "name": "basic-portfolio",
+  "version": "1.0.0",
+  "description": "Full Stack Dev Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LamarC/Basic-Portfolio.git"
+  },
+  "author": "Diana Viana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LamarC/Basic-Portfolio/issues"
+  },
+  "homepage": "https://github.com/LamarC/Basic-Portfolio#readme"
+}
